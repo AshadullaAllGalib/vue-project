@@ -1,4 +1,5 @@
 <script setup>
+import WikiComponent from './WikiComponent.vue'
 import { ref } from "vue";
 
 const newTask = ref("");
@@ -30,6 +31,9 @@ const removeTask = (index) => {
             </li>
         </ul>
     </div>
+
+
+    <WikiComponent />
 </template>
 
 <style scoped>
