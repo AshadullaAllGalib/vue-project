@@ -1,9 +1,9 @@
 <script setup>
-import TestComponent from './components/TestComponent.vue'
+import TodoList from './components/TodoList.vue'
 </script>
 
 <template>
-  <TestComponent />
+  <TodoList />
 </template>
 
 <style scoped></style>
